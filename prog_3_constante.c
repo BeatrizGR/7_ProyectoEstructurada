@@ -1,3 +1,12 @@
+/*---------------------------------------------------------*/
+/*Autor: Garcia Rios Beatriz ------------------------------*/
+/*E_mail: beatrizgarciarios1808@gmail.com -----------------*/
+/*Fecha de Creacion: 17/04/2018 ---------------------------*/
+/*Fecga de Actualizacion: 18/04/2018 ----------------------*/
+/*Descripcion: programa que muestra la declaración de constantes con #define y const y que muestra en pantalla los valores de las constantes. Así mismo, definir 6 macros para simular las operaciones (suma, resta, multiplicación, división y potencia) he imprimir los valores en pantalla. También se deberán simular los ciclos for, while y do-while.*/
+/*---------------------------------------------------------*/
+
+/*Declaracion de bibliotecas*/
 #include <stdio.h>
 
 /* DECLARACION DE CONSTANTES CON #define*/
@@ -18,16 +27,19 @@
 
 /* Definir ciclos con macro */
 #define CICLOFOR(x, y) for(x=0; x < y; x++)
+#define CICLOWHILE(x, y) while( x < y )
+#define CICLODOWHILE(X, Y) do while( x < y )
 
 /*Declaracion de constantes con cont*/
-/* Se reservan espacios en memoria */
+/* Se reservan espacios en memoria  */
 const float pi = 3.1416;
 const float g = 9.81;
 const int tamanio = 10;
 const int min = 0;
 const int max = 100;
 
-int main(void)
+int main (void)
+
 {
 
   /* Imprimir constantes #define */
@@ -55,14 +67,26 @@ int main(void)
 
 
   /* Utilizando las macros de ciclo */
-  int x;
+  int x = 5;
   int y = 10;
 
   CICLOFOR(x, y)
   {
     printf("\n Hola Mundo...\n" );
   }
+  
+  CICLOWHILE(x, y)
+ 	{
+ 	 	printf("\n Un dia mas...\n");
+  	 	x=15;
 
+       	}
+  CICLODOWHILE(x, y)
+  ++x;
+
+  	{
+  	  printf("\n La vida es increible...\n");
+  	}
   /* TAREA PARA EL DIA LUNES 16 EL CICLO WHILE , DO WHILE*/
 
   return 0;
