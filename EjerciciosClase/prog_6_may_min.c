@@ -1,3 +1,12 @@
+/*---------------------------------------------------------*/
+/*Autor: Garcia Rios Beatriz ------------------------------*/
+/*E_mail: beatrizgarciarios1808@gmail.com -----------------*/
+/*Fecha de Creacion: 24/04/2018 ---------------------------*/
+/*Fecha de Actualizacion: 24/04/018 -----------------------*/
+/*Descripcion: Programa que convierte letras de mayusculas a minusculas */
+/*---------------------------------------------------------*/
+
+/*Declaracion de bibliotecas*/
 #include<stdio.h>
 
 const int tamanio = 5;/*Definir una constante*/

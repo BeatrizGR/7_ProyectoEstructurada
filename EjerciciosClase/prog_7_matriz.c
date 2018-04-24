@@ -4,6 +4,7 @@
 /*Fecha de Creacion: 24/04/2018 --------------------*/
 /*Fecha de Actualizacion: 24/04/2018 ---------------*/
 /*Descripcion: Programa que imprime tres tipos de matrices */
+/*--------------------------------------------------*/
 
 #include<stdio.h>
 

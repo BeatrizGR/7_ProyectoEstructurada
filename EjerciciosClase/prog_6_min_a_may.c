@@ -3,9 +3,10 @@
 /*E_mail: beatrizgarciarios1808@gmail.com -----------------*/
 /*fecha de Creacion: 19/04/2018 ---------------------------*/
 /*Fecha de Actualizacion: ---------------------------------*/
-/*Descripcion: Programa que lee letras en munusculas y mayusculas */
+/*Descripcion: Programa que convierte letras de minusculas a mayusculas */
 /*---------------------------------------------------------*/
 
+/*Declaracion de bibliotecas*/
 #include<stdio.h>
 
 const int tamanio = 5;/*Definir una constante*/
