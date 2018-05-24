@@ -1,5 +1,15 @@
-#include <stdio.h> /*Declaracion de Biblioteca*/
-#include <stdbool.h> /*Valores booleanos*/
+/*---------------------------------------------------------*/
+/*Autor: Garcia Rios Beatriz ------------------------------*/
+/*E_mail: beatrizgarciarios1808@gmail.com -----------------*/
+/*Fecha de Creacion: 24/05/2018 ---------------------------*/
+/*Fecha de Actualizacion: 24/05/2018 ----------------------*/
+/* Descripcion: Programa que suma matrices ----------------*/
+/*---------------------------------------------------------*/
+
+/* Declaracion de bibliotecas */
+#include <stdio.h>
+/*Valores booleanos*/
+#include <stdbool.h>
 
 #define ROW 10
 #define COL 10

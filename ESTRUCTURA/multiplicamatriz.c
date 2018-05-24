@@ -1,4 +1,12 @@
-#include <stdio.h>
+/*---------------------------------------------------------*/
+/*Autor: Garcia Rios Beatriz ------------------------------*/
+/*E_mail: beatrizgarciarios1808@gmail.com -----------------*/
+/*Fecha de Creacion: 24/05/2018 ---------------------------*/
+/*Fecha de Actualizacion: 24/05/2018 ----------------------*/
+/* Descripcion: Programa qu multiplica matrices -----------*/
+/*---------------------------------------------------------*/
+
+#include <stdio.h>  /*Declaracion de bibliotecas*/
 #include <stdbool.h> /* Valores booleanos */
 
 #define ROW 10

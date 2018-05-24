@@ -6,7 +6,7 @@
 /* Descripcion: Estructura de peceras ---------------------*/
 /*---------------------------------------------------------*/
 
-/* Biblioteca principal */
+/* Declaracion de bibliotecas*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
